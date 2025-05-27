@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # 1. CSV 파일을 절대경로로 불러오기 (아래 경로는 예시입니다)
-df = pd.read_csv("C:/Users/jumiiilin/Desktop/Delivery.csv")
+df = pd.read_csv("C:/Users/USER/Desktop/Delivery.csv")
 
 # 2. 위도, 경도 추출
 coords = df[['Latitude', 'Longitude']]
